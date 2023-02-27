@@ -1,0 +1,39 @@
+.news {
+  margin-bottom: 90px;
+}
+.news__wrapper {
+  display: flex;
+}
+.news__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.news__title {
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 1.33em;
+  margin-bottom: 40px;
+}
+.news__description {
+  font-size: 16px;
+  line-height: 1.6em;
+  margin-bottom: 120px;
+}
+.news__description b {
+  font-weight: 700;
+}
+.news__gallery {
+  display: flex;
+  flex-direction: row;
+}
+.news__row {
+  margin-bottom: 10px;
+}
+.news__column {
+  margin-right: 10px;
+}
+.news__list .list__icon {
+  margin-right: 18px;
+}

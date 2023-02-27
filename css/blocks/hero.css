@@ -1,0 +1,67 @@
+.hero {
+  height: 805px;
+}
+.hero__content {
+  display: flex;
+  /*После компиляции scss путь изображений переписывается в неправильный*/
+  background: url(../../img/background/hero__bg.png) right 20% top 111% no-repeat, url(../../img/background/Ellipse.png) right 45% top -150% no-repeat;
+  height: 97%;
+}
+.hero__description {
+  margin-top: 236px;
+  margin-left: 60px;
+}
+.hero__char {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.hero__price--left, .hero__price--right {
+  font-family: Prata, Arial, Helvetica, sans-serif;
+  position: relative;
+}
+.hero__price--left {
+  margin-top: 70px;
+}
+.hero__price--right {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 65px;
+}
+
+.model__price {
+  display: flex;
+  align-items: baseline;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.model__price p {
+  margin-right: 7px;
+}
+
+.model__price,
+.model__dia {
+  position: relative;
+}
+
+.model__price::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 45%;
+  left: 130%;
+  width: 50px;
+  border: 1px solid #8B8371;
+}
+
+.model__dia::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 45%;
+  left: -60%;
+  width: 50px;
+  border: 1px solid #8B8371;
+}

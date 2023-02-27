@@ -1,0 +1,32 @@
+.description__title {
+  font-size: 48px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.description__title::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 55%;
+  left: -15%;
+  width: 50px;
+  border: 1px solid #8B8371;
+}
+
+.description__subtitle {
+  font-size: 31px;
+  margin-bottom: 39px;
+}
+
+.description__title,
+.description__subtitle {
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+}
+
+.description__text {
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 64px;
+  width: 59%;
+}

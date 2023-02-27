@@ -1,0 +1,57 @@
+*{
+    max-width: 1520px;
+}
+
+body, html{
+    height: 100%;
+}
+
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+a{
+    font-style: normal;
+    font-size: 14px;
+    color: #000;
+}
+
+address{
+    font-style: normal;
+}
+
+.container{
+   max-width: 1171px;
+   margin: 0 auto;
+   height: 100%;
+}
+
+ul li{
+    display: inline;
+}
+
+.button{
+    display: block;
+    width: 205px;
+
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 26px 38px;
+    background: #444240;
+    text-align: center;
+
+    transition: .1s;
+}
+
+.button:hover{
+    background: #D4B098;
+}
+
+.button-active{
+    background: #D4B098;
+}

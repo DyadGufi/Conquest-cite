@@ -1,0 +1,51 @@
+.collection__title {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+}
+.collection__title h3 {
+  font-weight: 400;
+}
+
+.collection__watches-list {
+  display: flex;
+}
+
+.watches-list__item {
+  padding: 40px 29px;
+  margin-right: 34px;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+}
+.watches-list__item .item__name {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.watches-list__item .item__price {
+  font-family: Prata, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.watches-list__item .item__image {
+  margin-bottom: 19px;
+  /*После компиляции scss путь изображений переписывается в неправильный*/
+  background: url(../../img/products/ellipse_bg.png) center top no-repeat;
+}
+.watches-list__item .item__link a {
+  font-size: 16px;
+}
+.watches-list__item .item__link {
+  position: relative;
+  margin-left: 20px;
+}
+.watches-list__item .item__link::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 55%;
+  left: -15%;
+  width: 30px;
+  border: 1px solid #8B8371;
+}
+
+.watches-list__item:last-child {
+  margin-right: 0;
+}

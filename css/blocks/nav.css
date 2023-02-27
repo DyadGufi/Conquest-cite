@@ -1,0 +1,11 @@
+.nav .nav__list .list__item {
+  margin-right: 65px;
+}
+
+.nav-tools ul {
+  display: flex;
+  align-items: center;
+}
+.nav-tools .list__item {
+  margin-right: 23px;
+}

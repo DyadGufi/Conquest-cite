@@ -1,0 +1,51 @@
+.advantages {
+  /*После компиляции scss путь изображений переписывается в неправильный*/
+  background: url(../../img/background/advantage_bg.jpg) left top no-repeat, 
+  url(../../img/temp/advantage_ellipse.png) right top no-repeat, 
+  url(../../img/temp/advantage_ellipse_2.png) right top no-repeat;
+}
+
+.advantage {
+  display: flex;
+}
+.advantage__img {
+  display: flex;
+  justify-content: flex-start;
+  margin: 52px 0;
+  flex-direction: column;
+}
+.advantage__paginator {
+  font-family: Prata, Arial, Helvetica, sans-serif;
+}
+.advantage__content {
+  margin-left: 69px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+}
+.advantage__title {
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  margin-bottom: 38px;
+}
+.advantage__description {
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-bottom: 45px;
+}
+
+.advantage__paginator {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 22px;
+  margin-top: 20px;
+  font-family: Prata, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+.advantage__paginator p {
+  margin: 0 10px;
+}
